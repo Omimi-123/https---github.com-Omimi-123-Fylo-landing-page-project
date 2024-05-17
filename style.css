@@ -307,9 +307,6 @@ input {
     margin-top: 25px;
 }
 
-.bottom-link3 {
-    margin-right: 80px;
-}
 
 .bottom-link3>i {
     width: 22%;
@@ -593,11 +590,12 @@ input {
 
     .bottom-link3 {
         display: flex;
+        justify-content: center;
         flex-direction: row;
         align-items: center;
         text-align: center;
-        width: 250px;
-        margin-left: 100px;
+        width: 271px;
+        margin: auto;
     }
 
     .bottom-link3>i {
