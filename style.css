@@ -195,7 +195,7 @@ input {
 }
 
 .testimoniel-p {
-    line-height: 26px;
+    line-height: 18px;
     font-size: 11px;
     margin: 0px;
 }
@@ -203,6 +203,11 @@ input {
 .avatar {
     border: 20px;
     border-radius: 50%;
+}
+
+.avater-name {
+    margin-top: 5px;
+    margin-left: 8px;
 }
 
 .fift-hero-box {
@@ -438,8 +443,12 @@ input {
         text-align: right;
     }
 
+    .a2-link1 {
+        text-align: center;
+        margin-top: 16px;
+    }
+
     .a2-link {
-        margin-left: 80px;
         text-decoration: underline;
         color: hsl(170, 45%, 43%);
         font-size: 14px;
@@ -464,17 +473,21 @@ input {
     .testimoniel {
         display: flex;
         width: 55%;
-        justify-content: space-between;
     }
 
     .testimoniel-p {
         font-size: 9px;
-        line-height: 19px;
+        line-height: 14px;
     }
 
 
     .quote>img {
         text-align: left;
+    }
+
+    .avater-name {
+        margin-top: 5px;
+        margin-left: 8px;
     }
 
     .after-section-3 {
